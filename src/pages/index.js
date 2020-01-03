@@ -20,7 +20,7 @@ const IndexPage = () => (
 
     <SEO title="Home" />
     {/* Main Landing Page Component. */}
-    testing
+    testing2
     <MainLanding/>
     {/* Quick Facts Component */}
     <QuickFacts/>
