@@ -1,0 +1,33 @@
+.footerContainer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 9px;
+    padding: 2% 5%;
+    background:#eceeef;
+}
+
+.footerLinkMasterGroup {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footerLinkFeaturedMasterGroup {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.footerLink {
+    padding-bottom:15px;
+}
+
+.footerLinkGroup h6 {
+    padding-bottom:20px;
+}

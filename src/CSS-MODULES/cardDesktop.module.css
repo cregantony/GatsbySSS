@@ -1,0 +1,27 @@
+.module {
+    position: relative;
+    max-width: 270px;
+    width:270px;
+    max-height: 480px;
+    text-decoration: none;
+    background:white;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,.2);
+    z-index: 2;
+}
+
+.imageWrapper {
+    overflow: hidden;
+    max-height: 180px;
+}
+
+.cardImage>img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.image-caption {
+    padding: 30px;
+}

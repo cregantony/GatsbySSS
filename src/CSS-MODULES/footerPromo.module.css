@@ -1,0 +1,35 @@
+
+.footerPromoContent {
+    display:flex;
+    justify-content: center;
+    width:100vw;
+    color:white;
+    align-items: baseline; 
+}
+
+.footerPromoComponent {
+    height: 330px;
+    display:flex;
+    align-items: center;
+    background: #08242a ;
+    border: 30px #eceeef solid;
+    margin-top:5%;
+
+}
+
+.footerPromoContent button {
+    color:#08242a;
+    background:white;
+    border-radius: 60px;
+    padding: 20px 35px;
+    border-color:#08242a;
+}
+
+
+
+.footerPromoContent h3 {
+    margin-right: 60px;
+    font-size: 45px;
+    line-height: 1.15em;
+    font-weight: 400;
+}

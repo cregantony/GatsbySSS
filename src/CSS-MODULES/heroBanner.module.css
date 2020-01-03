@@ -1,0 +1,33 @@
+.hero {
+    font-size: 100px;
+    color:red;
+}
+
+.heroContainer {
+    height:100vh;
+    min-height: 800px;;
+}
+
+.heroWrapper {
+    height:100%;
+    width:100%;
+    background-image: url(https://assets.website-files.com/5ccc8aa73871f9d0b1c81c04/5d814204d081e315750c6ef7_campaigns-min.jpg);
+    background-position: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.heroContent {
+    max-width: 450px;
+    padding: 15px;
+}
+
+.heroContent h3 {
+    font-size: 65px;
+    line-height: 65px;
+    color:#08242a;
+}

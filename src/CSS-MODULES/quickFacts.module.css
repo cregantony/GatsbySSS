@@ -1,0 +1,18 @@
+.quickFacts {
+    background:white;
+    display:grid;
+    padding: 4% 12%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    text-align: center;
+    grid-column-gap: 10%;
+}
+
+.quickFactsItem {
+    display:grid;
+    grid-template-columns: 1fr ;
+    justify-items: center;
+    
+}

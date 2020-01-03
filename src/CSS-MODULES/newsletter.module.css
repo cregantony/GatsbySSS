@@ -1,0 +1,36 @@
+.newsletterContainer {
+    background: #eceeef;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+  
+}
+
+.newsletterWrapper {
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsletterContent {
+text-align: center;
+}
+
+.newsletterInput {
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,.2);
+    border: 0 solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1em;
+    text-align: left;
+    height: 70px;
+    margin-bottom: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    width:500px;
+}

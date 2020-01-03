@@ -1,0 +1,51 @@
+.title {
+    text-align: center;
+}
+
+.containerGrid {
+    background:white;
+    display:grid;
+    padding: 4% 8%;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    text-align: center;
+    grid-column-gap:3%;
+}
+
+.firstSection {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.thirdSection {
+    text-align: left;
+    padding-top: 8%;
+}
+
+.h3heading {
+    font-size:2.8em;
+    text-align: left;
+    margin-left: -70%;
+    margin-bottom: 2vw;
+}
+
+.smallImage {
+    margin-left: -70%;
+    margin-top: 68%;
+}
+
+.promobuttonWrapper {
+    display:flex;
+    justify-content: center;
+    padding: 1% 8% ;
+}
+
+.promobutton {
+    background:#08242a;
+    color:white;
+    border-radius: 60px;
+    padding: 20px 35px;
+}
